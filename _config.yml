@@ -54,7 +54,7 @@ github: nanheee
 email: n___nani@naver.com
 
 authors:
-    johndoe:
+    johndo:
         name: John Doe
         bio: A Man who travels the world eating noodles
         external-image: false
@@ -66,6 +66,12 @@ authors:
         external-image: false
         picture: assets/images/james.jpg
         twitter: jamesfoster
+    nanhee:
+        name: NANHEE
+        bio: 
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: n___nani
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
