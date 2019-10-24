@@ -34,10 +34,10 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: nan2ee
-twitter: n___nani
+# facebook: nan2ee
+# twitter: n___nani
 # google: mygoogle
-instagram: n___nani
+# instagram: n___nani
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
@@ -68,7 +68,7 @@ authors:
         twitter: jamesfoster
     nanhee:
         name: NANHEE
-        bio: 
+        bio:
         external-image: false
         picture: assets/images/profile.jpg
         twitter: n___nani
