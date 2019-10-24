@@ -5,9 +5,8 @@ date: 2019-10-24 17:00
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- elements
-star: true
+- extra
+star: false
 category: blog
 author: nanhee
 description: Markdown summary with different options
