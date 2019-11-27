@@ -1,0 +1,43 @@
+---
+title: "image test"
+layout: post
+date: 2019-11-27 18:00
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- test
+star: false
+category: blog
+author: nanhee
+description: Markdown summary with different options
+---
+
+![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_before.png?raw=true)
+
+
+## Images
+
+
+{% highlight raw %}
+![Markdowm Image][/image/url]
+{% endhighlight %}
+
+![Markdowm Image][6]
+
+*Figure Caption*?
+
+{% highlight raw %}
+![Markdowm Image][/image/url]
+<figcaption class="caption">Photo by John Doe</figcaption>
+{% endhighlight %}
+
+![Markdowm Image][6]
+<figcaption class="caption">Photo by John Doe</figcaption>
+
+*Bigger Images*?
+
+{% highlight raw %}
+![Markdowm Image][/image/url]{: class="bigger-image" }
+{% endhighlight %}
+
+![Markdowm Image][6]{: class="bigger-image" }
