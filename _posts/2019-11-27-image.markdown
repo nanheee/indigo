@@ -1,43 +1,30 @@
 ---
-title: "image test"
+title: "태블로(Tableau) 연도, 월, 일 날짜 합치기"
 layout: post
 date: 2019-11-27 18:00
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- test
+- Tableau, Tableau basic, 태블로기초, 데이터전처리
 star: false
 category: blog
 author: nanhee
 description: Markdown summary with different options
 ---
 
+### 태블로(Tableau) 기초
+## 연도, 월, 일 분리되어 있는 날짜 합치기
+
+
+날짜가 연도, 월, 일로 나누어 저장된 데이터를 태블로를 이용해여 간단하게 합칠 수 있습니다.
+
+아래 그림과 같이 연도, 월, 일이 분리되어 저장되어 있습니다.
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_before.png?raw=true)
 
 
-## Images
+계산된 필드식을 이용하면 손쉽게 날짜 합치기가 가능합니다.
+![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_middle.png?raw=true)
 
 
-{% highlight raw %}
-![Markdowm Image][/image/url]
-{% endhighlight %}
-
-![Markdowm Image][6]
-
-*Figure Caption*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]
-<figcaption class="caption">Photo by John Doe</figcaption>
-{% endhighlight %}
-
-![Markdowm Image][6]
-<figcaption class="caption">Photo by John Doe</figcaption>
-
-*Bigger Images*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]{: class="bigger-image" }
-{% endhighlight %}
-
-![Markdowm Image][6]{: class="bigger-image" }
+# 결과
+![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_after.png?raw=true)
