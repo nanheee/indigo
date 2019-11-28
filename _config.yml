@@ -34,8 +34,8 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-# facebook: nan2ee
-# twitter: n___nani
+# facebook: myfacebook
+# twitter: mytwitter
 # google: mygoogle
 # instagram: n___nani
 # pinterest: mypinterest
@@ -51,7 +51,7 @@ github: nanheee
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: n___nani@naver.com
+email: data.analyst@kakao.com
 
 authors:
     johndo:
