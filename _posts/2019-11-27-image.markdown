@@ -15,18 +15,23 @@ author: nanhee
 description: Markdown summary with different options
 ---
 
-### 태블로(Tableau) 기초
 ### 연도, 월, 일 분리되어 있는 날짜 합치기
 
 
 
+* 연도, 월, 일로 분리된 데이터를 태블로를 이용해여 간단하게 합칠 수 있습니다.
+
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_before.png?raw=true)
-연도, 월, 일로 분리된 데이터를 태블로를 이용해여 간단하게 합칠 수 있습니다.
 
 
 
 
-계산된 필드식을 이용하면 손쉽게 날짜 합치기가 가능합니다.
+* 계산된 필드식 만들기
+> DATEPARSE('yyyy-mm-dd',STR([Year])+"-"+STR([Month])+"-"+STR([Day]))
+
+> DATEPARSE(형식, 문자열) : 문자열을 'yyyy-mm-dd' 형식의 날짜로 변환
+> STR(측정값) : 측정값을 문자열로 반환
+
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_middle.png?raw=true)
 
 
