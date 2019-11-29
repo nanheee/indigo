@@ -18,7 +18,7 @@ description: Markdown summary with different options
 ### 연도, 월, 일 분리되어 있는 날짜 합치기
 
 
-
+* Sample
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_before.png?raw=true)
 
 
@@ -26,13 +26,12 @@ description: Markdown summary with different options
 
 ### 계산된 필드식 만들기
 
-* DATEPARSE('yyyy-mm-dd',STR([Year])+"-"+STR([Month])+"-"+STR([Day]))
-* DATEPARSE(형식, 문자열) : 문자열을 'yyyy-mm-dd' 형식의 날짜로 변환.
-* STR(측정값) : 측정값을 문자열로 반환.
 
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_middle.png?raw=true)
 
 
+* DATEPARSE(형식, 문자열) : 문자열을 'yyyy-mm-dd' 형식의 날짜로 변환.
+* STR(측정값) : 측정값을 문자열로 반환.
 
 
 ### 결과
