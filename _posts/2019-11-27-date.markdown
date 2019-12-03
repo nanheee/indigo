@@ -29,9 +29,12 @@ Sample을 보면 Year, Month, Day 가 필드가 따로 저장되어 있습니다
 
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_yyyymmdd_middle.png?raw=true)
 
-* <span class="evidence">DATEPARSE(형식, 문자열)</span> : 문자열을 'yyyy-MM-dd' 형식의 날짜로 변환.
-* <span class="evidence">STR(측정값)</span> : 측정값을 문자열로 반환.
-* 사용자 지정 날짜 형식은 아래 링크를 참고
+<span class="evidence">DATEPARSE(형식, 문자열)</span> : 문자열을 'yyyy-MM-dd' 형식의 날짜로 변환.
+
+<span class="evidence">STR(측정값)</span> : 측정값을 문자열로 반환.
+
+사용자 지정 날짜 형식에 대한 자세한 설명은 아래 링크를 참고
+
 <https://help.tableau.com/current/pro/desktop/ko-kr/dates_custom_date_formats.htm>
 
 
