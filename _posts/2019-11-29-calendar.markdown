@@ -19,24 +19,24 @@ description: Markdown summary with different options
 
 ### 행사 달력 대시보드 만들기
 
-#### Sample data
+### Sample data
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_1.png?raw=true)
 
-예시로 2019년 11월 로드샵 행사 일정을 일부 가져왔습니다.
+2019년 11월 로드샵 행사 일정을 일부 가져왔습니다.
 
-#### calendar data 만들기
+### Calendar data 만들기
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_2.png?raw=true)
 
 날짜 데이터(2019-01-01 ~ 2019-12-31)를 만듭니다.
 
-#### 데이터 조인 하기
+### 데이터 조인 하기
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_3.png?raw=true)
 두 데이터를 Left 조인 합니다.
 
 데이터 조인에 대한 자세한 설명은 아래 링크를 참고
 <https://help.tableau.com/current/pro/desktop/ko-kr/joining_tables.htm>
 
-#### 기본 달력 만들기
+### 기본 달력 만들기
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_4.png?raw=true)
 
 * 필터 : 년월(calendar 날짜)
@@ -44,18 +44,17 @@ description: Markdown summary with different options
 * 주 : 주(calendar 날짜)
 * 텍스트 : 일(calendar 날짜)
 
-* 위와 같이 넣으면 기본 달력이 만들어 집니다.
+위와 같이 넣으면 기본 달력이 만들어 집니다.
 
-#### 행사 일정 넣기
+### 행사 일정 넣기
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_5.png?raw=true)
 
-* 텍스트 : 브랜드
-* 텍스트 : 행사명
+* 텍스트 : 브랜드 , 행사명
 * 색상 : 브랜드
 
-* 위와 같이 넣으면 달력에 행사를 넣으면 행사 달력 대시보드가 완성 됩니다.
+위와 같이 넣으면 달력에 행사를 넣으면 행사 달력 대시보드가 완성 됩니다.
 
-#### 결과
+### 결과
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_after.png?raw=true)
 
 여러 행사가 겹칠 경우, 같은 행사는 같은 줄에서 계속 보여지는게 한 눈에 보기 편하나 태블로로 표현하기는 어렵습니다. 색상 범례 정렬을 변경하여 최대한 보기 편하게 변경하는 것이 현재는 최선으로 보여집니다.
