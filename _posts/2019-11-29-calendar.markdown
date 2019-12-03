@@ -52,7 +52,7 @@ description: Markdown summary with different options
 * 텍스트 : 브랜드 , 행사명
 * 색상 : 브랜드
 
-위와 같이 넣으면 달력에 행사를 넣으면 행사 달력 대시보드가 완성 됩니다.
+위와 같이 넣으면 행사 달력 대시보드가 완성 됩니다.
 
 ### 결과
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_after.png?raw=true)
