@@ -55,6 +55,6 @@ description: Markdown summary with different options
 위와 같이 넣으면 행사 달력 대시보드가 완성 됩니다.
 
 ### 결과
-![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_after.png?raw=true)
+![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/dashboard/calendar_after.png?raw=true){: class="bigger-image" }
 
 여러 행사가 겹칠 경우, 같은 행사는 같은 줄에서 계속 보여지는게 한 눈에 보기 편하나 태블로로 표현하기는 어렵습니다. 색상 범례 정렬을 변경하여 최대한 보기 편하게 변경하는 것이 현재는 최선으로 보여집니다.
