@@ -20,12 +20,11 @@ description: Markdown summary with different options
 
 ### 태블로 날짜 필터 최근일자순으로 정렬하기
 오늘 포스팅할 내용은 **날짜 필터 최근일자순으로 정렬** 입니다.
-날짜를 필터로 넣었을 때 최근일자가
+날짜를 필터로 넣었을 때 최근일자가 위로 가게 설정해보겠습니다.
 
 ### Sample
-![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_.png?raw=true)
 
-![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_2.png?raw=true)
+![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_.png?raw=true)
 
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_3.png?raw=true)
 
