@@ -19,7 +19,7 @@ description: Markdown summary with different options
 
 
 ### 태블로 날짜 필터 최근일자순으로 정렬하기
-오늘 포스팅할 내용은 **날짜 필터 최근일자순으로 정렬** 입니다. //
+오늘 포스팅할 내용은 **날짜 필터 최근일자순으로 정렬** 입니다.
 날짜를 필터로 넣었을 때 최근일자가
 
 ### Sample
@@ -34,3 +34,4 @@ description: Markdown summary with different options
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_5.png?raw=true)
 
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_6.png?raw=true)
+![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_7.png?raw=true)
