@@ -23,13 +23,13 @@ description: Markdown summary with different options
 날짜를 필터로 넣었을 때 최근일자부터 보이게 하려고 한다.
 
 ### Sample
-Sample은 'Brand', 'Category', 'Date', 'Product', 'Sales'로 구성되어 있다. 'Date'를 [날짜] 형식으로 변환했다.
+Sample은 'Brand', 'Category', 'Date', 'Product', 'Sales'로 구성되어 있으며 'Date'를 [날짜] 형식으로 변환했다.
 
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_1.png?raw=true)
 
 
-'계산된 필드 만들기'로 아래와 같이 만든다.
-Date에서 년/월/일을 별도로 가져와 텍스트 형식으로 만들어 정렬이 가능하게 하기 위함이다.
+'계산된 필드 만들기'로 아래와 같이 입력한다.
+정렬이 가능하게 Date에서 년/월/일을 별도로 가져와 텍스트 형태로 저장한다.
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_2.png?raw=true)
 
 
@@ -45,4 +45,3 @@ Date에서 년/월/일을 별도로 가져와 텍스트 형식으로 만들어 �
 왼쪽 : 변경 전 / 오른쪽 : 변경 후
 
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_5.png?raw=true)
-![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_6.png?raw=true)
