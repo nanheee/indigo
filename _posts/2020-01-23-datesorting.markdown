@@ -29,15 +29,21 @@ Sample은 'Brand', 'Category', 'Date', 'Product', 'Sales'로 구성되어 있다
 
 
 '계산된 필드 만들기'로 아래와 같이 만든다.
-Date에서 년/월/일을 별도로 가져와 정렬이 가능한 텍스트 형식으로 만들어 준다.
+
+Date에서 년/월/일을 별도로 가져와 텍스트 형식으로 만들어 정렬이 가능하게 하기 위함이다.
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_2.png?raw=true)
+
 
 위에서 만든 필드를 마우스우클릭 하고, 기본속성 > 정렬에 들어간다.
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_3.png?raw=true)
 
+
 정렬 순서 : 내림차순, 정렬 기준 : 데이터 원본 순서로 한 뒤 확인을 누른다.
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_4.png?raw=true)
 
+
 필터에 넣으면 아래와 같이 최근일자부터 보이는 것을 확인할 수 있다.
+
+왼쪽 : 변경 전 / 오른쪽 : 변경 후
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_5.png?raw=true)
 ![](https://github.com/nanheee/nanheee.github.io/blob/master/assets/basic/basic_datesorting_6.png?raw=true)
