@@ -1,0 +1,36 @@
+---
+title: "[MySQL] mac에 MySQL 설치하기"
+layout: post
+date: 2020-03-11 12:31
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- MySQL
+star: false
+category: blog
+author: nanhee
+description: Markdown summary with different options
+---
+
+
+
+### 설치 가능 MySQL 버전 확인
+```
+$ brew search mysql
+```
+
+### MySQL 설치
+가장 최신 버전으로 설치된다.
+```
+$ brew install mysql
+```
+
+다른 버전으로 설치하고 싶으면 아래와 같이 설치하면 된다.
+```
+$ brew install mysql@5.7
+```
+
+### MySQL 시작
+```
+$ mysql.server start
+```
