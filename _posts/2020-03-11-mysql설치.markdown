@@ -1,5 +1,5 @@
 ---
-title: "[MySQL] mac에 MySQL 설치하기"
+title: "[MySQL] HomeBrew로 Mac에 MySQL 설치하기"
 layout: post
 date: 2020-03-11 12:31
 image: /assets/images/markdown.jpg
@@ -29,7 +29,16 @@ $ brew install mysql
 $ brew install mysql@5.7
 ```
 
-### MySQL 시작
+### MySQL 설정
 ```
 $ mysql.server start
+```
+
+```
+$ mysql_secure_installation
+```
+
+### MySQL 사용
+```
+$ mysql -u root -p
 ```
