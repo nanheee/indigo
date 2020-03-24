@@ -1,5 +1,5 @@
 ---
-title: "[Tableau] 월 말 일 계산하기"
+title: "[Tableau] 월의 마지막 일자 계산하기"
 layout: post
 date: 2020-03-24 12:31
 image: /assets/images/markdown.jpg
@@ -18,17 +18,17 @@ description: Markdown summary with different options
 ---
 
 
-### Last of Day of Month / 월 말 일 계산하기
+### Last of Day of Month / 월의 마지막 일자 계산하기
 ```
 DATE(DATEADD('day',-1,DATEADD('month',1,DATETRUNC('month',[Date]))))
 ```
 
 
-## 상세 계산식
+#### 상세 계산식
 ```
 DATETRUNC('month', [Date])
 ```
-[Date] 에 'month'까지 잘라낸다. ('day' 삭제)
+[Date] 에 'month'까지 잘라낸다.
 ex) 2020-01-31 → 2020-01-01
 
 ```
