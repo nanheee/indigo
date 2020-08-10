@@ -24,7 +24,7 @@ description: Markdown summary with different options
 * % : 나눗셈 후 나머지를 구하는 연산자
 
 
-```Python
+```python
 
 def solution(s):
   if len(s) % 2 != 0:
