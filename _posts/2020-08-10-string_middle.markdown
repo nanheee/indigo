@@ -1,7 +1,7 @@
 ---
 title: "[Python] lv1 - 가운데 글자 가져오기"
 layout: post
-date: 2020-08-10 12:31
+date: 2020-08-10
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -20,9 +20,6 @@ description: Markdown summary with different options
 <https://programmers.co.kr/learn/courses/30/lessons/12903>
 
 #### 내가 푼 풀이
-* // : 나눗셈 이하를 버리는 연산자
-* % : 나눗셈 후 나머지를 구하는 연산자
-
 
 ```python
 
@@ -37,6 +34,8 @@ print(solution("power"))
 
 ```
 
+* // : 나눗셈 이하를 버리는 연산자
+* % : 나눗셈 후 나머지를 구하는 연산자
 
 
 #### 다른 사람의 풀이
